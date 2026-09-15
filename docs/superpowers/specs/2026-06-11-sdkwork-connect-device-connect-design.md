@@ -3,7 +3,7 @@
 Status: proposed
 Date: 2026-06-11
 Repository: `sdkwork-connect`
-Root: `E:/sdkwork-space/sdkwork-connect`
+Root: `<workspace-root>/sdkwork-connect`
 Domain: `device`
 Capability: `connect`
 
@@ -434,7 +434,7 @@ Future implementation verification:
 
 ## Acceptance Criteria
 
-- SDKWork Connect is an independent repository at `E:/sdkwork-space/sdkwork-connect`.
+- SDKWork Connect is an independent repository at `<workspace-root>/sdkwork-connect`.
 - The canonical domain is `device` and capability is `connect`.
 - Top-level `packages/` is restricted to application-neutral contracts, clients, and adapters.
 - SDKWork Connect PC application content, if added, is under `apps/sdkwork-connect-pc`.
